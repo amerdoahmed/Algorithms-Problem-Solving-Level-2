@@ -35,6 +35,9 @@ enPrimNotPrime CheckPrime(int Number)
 void PrintPrimeNumbersFrom1ToN()
 {
     int N = ReadPositiveNumber("Please Enter Number !\n");
+    
+    cout << "Prime Numbers From 1 to N\n";
+    cout << "are: \n";
     for (int i = 0; i <= N; i++)
     {
         if (CheckPrime(i) == Prime)
