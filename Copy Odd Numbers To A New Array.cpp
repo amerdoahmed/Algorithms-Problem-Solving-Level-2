@@ -61,7 +61,7 @@ void CopyArrayUsingAddArrayElements(int arrSource[100], int arrDestination[100],
 {
     for (int i = 0;i < arrLength;i++)
     {
-        if (CheckOddEven(arrSource[i]) == OddOrEven::Odd) // Another great simple solution if (arrSource[i] % 2 != 0) 
+        if (CheckOddEven(arrSource[i]) == OddOrEven::Odd) // Another great simple solution : if (arrSource[i] % 2 != 0) 
         {
             AddArrayElement(arrSource[i], arrDestination, arrDestinationLength);
         }
